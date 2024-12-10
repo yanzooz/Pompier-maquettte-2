@@ -1,11 +1,11 @@
 /*MAQUETTE 2 DESKTOP*/
 :root {
   /* font-size */
-  --h2-font-size: 1.3rem;
-  --h3-font-size: 1rem;
-  --description-fs: 0.8rem;
-  --date-fs: 0.7rem;
-  --lire-la-suite-fs: 0.5rem;
+  --h2-font-size: 1.4rem;
+  --h3-font-size: 1.1rem;
+  --description-fs: 1.1rem;
+  --date-fs: 0.9rem;
+  --lire-la-suite-fs: 0.7rem;
   --rs-fs: 1rem;
   --nav-fs: 1rem;
   /* color */
@@ -67,7 +67,7 @@
   }
 
   main {
-    padding: 50px 10rem;
+    padding: 50px 15rem;
     section#newsSection {
       margin: 10px 0px 50px 0px;
       background-color: var(--noir);
@@ -240,7 +240,7 @@
 }
 
 /* Tablet*/
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   html {
     font-size: 10px;
   }
@@ -446,7 +446,7 @@
 }
 
 /*MOBILE*/
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   html {
     font-size: 10px;
   }
